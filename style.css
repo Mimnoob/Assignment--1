@@ -187,3 +187,39 @@
 .card-bottom-left {
     border-radius: 100%;
 }
+.better{
+    height: 750px;
+    width: 1140px;
+    margin: 120px 150px;
+    align-items: center;
+    background-color: white;
+}
+.better-title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.better-text{
+  color: #49494a;
+  font-weight: lighter;  
+  font-size: 15px;
+  text-align: center;
+}
+.better-btn{
+background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 195px;  
+margin: 1px 500px;
+}
+ 
+.better-btn-text {
+    padding: 72px 24px;
+    color: white;
+}
+.better-img{
+width: 840px;
+height: 365px;
+border-radius: 48px;
+margin: 15px 180px;
+}
