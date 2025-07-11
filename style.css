@@ -194,11 +194,14 @@
 
 .card-bottom {
     display: flex;
-    gap: 0;
+    gap: 10px;
 }
 
 .card-bottom-left {
     border-radius: 100%;
+}
+.card-bottom-right span{
+    color: #49494a;
 }
 
 .better {
