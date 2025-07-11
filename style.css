@@ -1,6 +1,6 @@
 /* CSS */
 .head {
-    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@
     width: 1140px;
     height: 640px;
     margin: 20px 250px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .get-left {
