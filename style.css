@@ -148,7 +148,7 @@
     font-size: 42px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
 .each-card {
@@ -187,39 +187,121 @@
 .card-bottom-left {
     border-radius: 100%;
 }
-.better{
+
+.better {
     height: 750px;
     width: 1140px;
     margin: 120px 150px;
     align-items: center;
     background-color: white;
 }
-.better-title{
+
+.better-title {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-.better-text{
-  color: #49494a;
-  font-weight: lighter;  
-  font-size: 15px;
-  text-align: center;
+
+.better-text {
+    color: #49494a;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
 }
-.better-btn{
-background-color: #4E47FF;
+
+.better-btn {
+    background-color: #4E47FF;
     color: white;
     border-radius: 10px;
     height: 48px;
-    width: 195px;  
-margin: 1px 500px;
+    width: 195px;
+    margin: 1px 500px;
 }
- 
+
 .better-btn-text {
     padding: 72px 24px;
     color: white;
 }
-.better-img{
-width: 840px;
-height: 365px;
-border-radius: 48px;
-margin: 15px 180px;
+
+.better-img {
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin: 15px 180px;
+}
+
+.get {
+    display: flex;
+    width: 1140px;
+    height: 640px;
+    margin: 20px 250px;
+    gap: 10px;
+}
+
+.get-left {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.get-right {
+    width: 497px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.get-right input {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.get-right textarea {
+    border-radius: 10px;
+}
+
+.get-btn {
+    padding: 12px;
+}
+
+.get-btn {
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+}
+.footer{
+    width: 540px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 250px 550px;
+}
+.footer-title, .footer-text{
+    text-align: center;
+}
+.footer-title{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #4E47FF;
+}
+.footer-text{
+    margin-top: -45px;
+   font-family: 'Raleway', sans-serif; 
+    font-size: 10px;
+ color: #49494a;
+}
+.link{
+    margin: 10px 80px;
+}
+.link ul li{
+list-style: none;
+}
+.link ul li a{
+text-decoration: none;
+padding: 10px;
 }
