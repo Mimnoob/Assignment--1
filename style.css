@@ -271,14 +271,20 @@
 .get-btn {
     background-color: #4E47FF;
     color: white;
+   
     border-radius: 10px;
+}
+.footer-foot{
+height: 450px;
+width: 100%;
 }
 .footer{
     width: 540px;
     height: 250px;
     display: flex;
     flex-direction: column;
-    margin: 250px 550px;
+    margin: 250px 450px;
+   
 }
 .footer-title, .footer-text{
     text-align: center;
@@ -296,7 +302,7 @@
  color: #49494a;
 }
 .link{
-    margin: 10px 80px;
+    margin: -8px 80px;
 }
 .link ul li{
 list-style: none;
